@@ -81,6 +81,10 @@ h1,h2,h3,h4{
 
 #inputGroup > *{    
     margin-bottom: 5px;
+    display:flex;
+    justify-content:stretch;
+    align-content: stretch;
+    flex-wrap: wrap-reverse;
 }
 input{
     padding-left: 10px;
@@ -125,4 +129,22 @@ input{
     border-radius:0;
     text-align:left;
     background-color: white;
+}
+#UVIndex{
+    display: inline;
+    padding:5px;
+    border: 1px solid;
+    border-radius: 4px; 
+
+}
+#forecast > h3{
+    padding-left: 10px;
+}
+@media (max-width:550px){
+    #searchPanel{
+        width:230px;
+    }
+    #mainContent{
+        margin-left:230px;
+    }
 }
