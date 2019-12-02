@@ -24,3 +24,7 @@
     border-style: solid;
     border-width: 1px;
 }
+#run-search,
+#clear-search{
+    margin-top: 15px;
+}
